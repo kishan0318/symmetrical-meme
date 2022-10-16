@@ -41,14 +41,22 @@ If using django framework for your project and using postgres ...try checking yo
 eg:
 
    DATABASES = {
+          
           'default': {
+          
               'ENGINE': 'django.contrib.gis.db.backends.postgis',
+
               'NAME':'Your_db_name_here',
+
               'USER':'Your_user_here',
+
               'PASSWORD':'Your_password_here',
+
               'HOST':'localhost',
+
               'PORT':'5433',
-          }
-      }
+
+             }
+           }
 
 Thank You!!!
